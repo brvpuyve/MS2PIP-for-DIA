@@ -14,7 +14,16 @@ For this manuscript, I used a Linux operated machine to install MS²PIP in a vir
 If you wouldn't have acces to a server or Linux operated machine. I would recommend you to install the VirtualBox software to create a virtual clone on your Windows/iOS operated machine. 
 
 Once MS²PIP is installed, you can install ELUDE from the Percolator GitHuB: https://github.com/percolator/percolator/releases
-ELUDE is embedded in one of the folders of the percolator repository. It can easily be installed with following command: 
-sudo dpkg -i elude-v3-02-linux-amd64.deb
+ELUDE is embedded in one of the folders of the percolator repository. It can easily be installed (after unpacking the folder) with following command: 
+sudo dpkg -i elude-v3-02-linux-amd64.deb (Linux operated machine) | dpkg -i  Ubuntu64.deb
+
+If you would have any issues during the installment please contact us and we will try to help you wherever we can. 
+
+Once everything is installed you can start predicting spectral libraries using one single command:
+Python3 “fasta2speclib.py” [-h] [-o OUTPUT_FILENAME] [-c CONFIG_FILENAME] “fasta_filename”
+On our Github repository you can find our ELUDE retention model, as well as the configuration file used. 
+
+
+
 
 
