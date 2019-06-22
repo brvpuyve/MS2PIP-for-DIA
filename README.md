@@ -30,7 +30,7 @@ If you would have any issues during the installment please contact us and we wil
 Kind Regards,
 Bart Van Puyvelde
 Email: bart.vanpuyvelde@ugent.be
-This research was mainly funded by a mandate from the Research Foundation Flanders (FWO) awarded to B.VP. [grant number 11B4518N]
+This research was mainly funded by a mandate from the Research Foundation Flanders (FWO) awarded to BVP [grant number 11B4518N]
 
 
 
