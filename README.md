@@ -3,11 +3,18 @@ Dear,
 
 First of all, I would like to thank you for showing your interest into our GitHuB page.
 
-In close collaboration with the CompOmics group of Lennart Martens we worked out a complete workflow to use MS²PIP predi IA data extraction. Today, we bring you the full story of our idea and how you can benefit of our publicly available workflow in your own research. URL paper BioArchive !!
+In close collaboration with the CompOmics group of Lennart Martens we worked out a complete workflow to use MS²PIP predicted libraries for wide window DIA data extraction. Please refer to our manuscript posted on BioArchive !!
 
-We advise you to keep the material and methods section with you at all time to make things easier. 
+Here, we give you a full tutorial to apply this workflow on your biological project. 
 
 First, you have to install MS²PIP to enjoy all embedded features of this magnificent piece of machine learning. 
-Here, I would like to refer to the GitHub page of MS²PIP: 
+Here, I would like to refer to the GitHub page of MS²PIP: https://github.com/compomics/ms2pip_c/ 
+
+For this manuscript, I used a Linux operated machine to install MS²PIP in a virtual environment of Python3.(Thx to Yannick) 
+If you wouldn't have acces to a server or Linux operated machine. I would recommend you to install the VirtualBox software to create a virtual clone on your Windows/iOS operated machine. 
+
+Once MS²PIP is installed, you can install ELUDE from the Percolator GitHuB: https://github.com/percolator/percolator/releases
+ELUDE is embedded in one of the folders of the percolator repository. It can easily be installed with following command: 
+sudo dpkg -i elude-v3-02-linux-amd64.deb
 
 
