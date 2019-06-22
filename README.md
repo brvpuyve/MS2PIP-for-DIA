@@ -5,7 +5,7 @@ First of all, I would like to thank you for showing your interest into our GitHu
 
 In close collaboration with the CompOmics group of Lennart Martens we worked out a complete workflow to use MS²PIP predicted libraries for wide window DIA data extraction. Please refer to our manuscript posted on BioArchive !!
 
-Here, we give you a full tutorial to apply this workflow for your own research. Please keep the material and methods section close as it will help you during the process. 
+Here, we give you a full tutorial to show the ease of applying this workflow in your own research. Please keep the material and methods section close as it will help you during the process. 
 
 First, you have to install MS²PIP to enjoy all embedded features of this magnificent piece of machine learning. 
 Here, I would like to refer to the GitHub page of MS²PIP: https://github.com/compomics/ms2pip_c/ 
