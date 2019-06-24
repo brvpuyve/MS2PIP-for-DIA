@@ -30,6 +30,8 @@ Using the CONVERT MSP/SPTXT to Library function, you can convert MS²PIP .msp fi
 
 If you would have any issues during the installment please contact us and we will try to help you wherever we can. 
 
+In our GitHub repository you can find a DIY practical exercise (on a Yeast dataset of the Chromatogram Library paper of B.Searle). Please try it yourself and send us your results using social media. 
+
 Bart Van Puyvelde ([bart.vanpuyvelde@ugent.be](mailto:bart.vanpuyvelde@ugent.be))
 
 *This research was mainly funded by a mandate from the Research Foundation Flanders (FWO) awarded to BVP [grant number 11B4518N]*
