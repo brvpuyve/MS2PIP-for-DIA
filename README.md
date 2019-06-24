@@ -24,6 +24,8 @@ On our Github repository you can find our ELUDE retention model, as well as the 
 
 If older versions of MS²PIP are used, the retention time is not on a separate line and therefore requires parsing. The script to convert the RT is available on this GitHub repository.  
 
+The predicted spectral libraries (Human, Yeast) are available via https://cmbcloud.ugent.be/index.php/s/rkPx4qJ6jT25JWT?path=%2FSpectral_libraries
+
 Installing EncyclopeDIA:
 Please install EncyclopeDIA 0.8.2 from https://bitbucket.org/searleb/encyclopedia/downloads/?tab=downloads.
 Using the CONVERT MSP/SPTXT to Library function, you can convert MS²PIP .msp files to a .dlib file. 
