@@ -1,0 +1,17 @@
+{
+    "output_filetype":["msp"],
+    "charges":[2, 3],
+    "min_peplen":7,
+    "max_pepmass":5000,
+    "missed_cleavages":2,
+    "modifications":[
+        {"name":"Oxidation", "unimod_accession":35, "mass_shift":15.994915, "amino_acid":"M", "n_term":false, "fixed":false},
+        {"name":"Carbamidomethyl", "unimod_accession":4, "mass_shift":57.021464, "amino_acid":"C", "n_term":false, "fixed":true}
+    ],
+    "ms2pip_model":"HCD",
+    "decoy":false,
+    "elude_model_file":"/home/bart/190121_MS2PIP/ms2pip_c/ELUDE_TTOF5600_Full.model",
+    "peprec_filter":null,
+    "batch_size":5000,
+    "num_cpu":24
+}

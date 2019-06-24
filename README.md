@@ -1,4 +1,4 @@
-# MS2PIP-for-DIA
+# The future of peptide-centric Data-Independent Acquisition is predicted 
 Dear,
 
 First of all, I would like to thank you for showing your interest into our GitHub page.
@@ -9,7 +9,7 @@ To enjoy all embedded features of MS²PIP, a full installation is required.
 Here, I would like to refer to the [GitHub page of MS²PIP](https://github.com/compomics/ms2pip_c/releases/latest).
 
 For this manuscript, a Linux operated machine with a virtual environment of Python3 was used. (Thx to Yannick) 
-If you wouldn't have acces to a server or Linux operated machine. I would recommend you to install the VirtualBox software to create a virtual clone on your Windows/iOS operated machine.
+If you wouldn't have access to a server or Linux operated machine. I would recommend you to install the VirtualBox software to create a virtual clone on your Windows/iOS operated machine.
 
 Once MS²PIP is installed, you can install ELUDE from the Percolator GitHub: https://github.com/percolator/percolator/releases. ELUDE is embedded in one of the folders of the percolator repository. It can easily be installed (after unpacking the folder) with following command:
 ```
@@ -33,5 +33,5 @@ If you would have any issues during the installment please contact us and we wil
 In our GitHub repository you can find a DIY practical exercise (on a Yeast dataset of the Chromatogram Library paper of B.Searle). Please try it yourself and send us your results using social media. 
 
 Bart Van Puyvelde ([bart.vanpuyvelde@ugent.be](mailto:bart.vanpuyvelde@ugent.be))
+Maarten Dhaenens ([maarten.dhaenens@ugent.be](mailto:maarten.dhaenens@ugent.be))
 
-*This research was mainly funded by a mandate from the Research Foundation Flanders (FWO) awarded to BVP [grant number 11B4518N]*
