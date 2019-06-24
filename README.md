@@ -1,4 +1,4 @@
-# The future of peptide-centric Data-Independent Acquisition is predicted 
+# The future of peptide-centric DIA is predicted 
 Dear,
 
 First of all, I would like to thank you for showing your interest into our GitHub page.
