@@ -32,6 +32,6 @@ If you would have any issues during the installment please contact us and we wil
 
 In our GitHub repository you can find a DIY practical exercise (on a Yeast dataset of the Chromatogram Library paper of B.Searle). Please try it yourself and send us your results using social media. 
 
-Bart Van Puyvelde ([bart.vanpuyvelde@ugent.be](mailto:bart.vanpuyvelde@ugent.be))
+Bart Van Puyvelde ([bart.vanpuyvelde@ugent.be](mailto:bart.vanpuyvelde@ugent.be)) and
 Maarten Dhaenens ([maarten.dhaenens@ugent.be](mailto:maarten.dhaenens@ugent.be))
 
