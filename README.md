@@ -1,4 +1,4 @@
-# The future of peptide-centric Data-Independent Acquisition is predicted 
+# The future of peptide-centric DIA is predicted 
 Dear,
 
 First of all, I would like to thank you for showing your interest into our GitHub page.
@@ -24,6 +24,8 @@ On our Github repository you can find our ELUDE retention model, as well as the 
 
 If older versions of MS²PIP are used, the retention time is not on a separate line and therefore requires parsing. The script to convert the RT is available on this GitHub repository.  
 
+The predicted spectral libraries (Human, Yeast) are available in .dlib format via https://cmbcloud.ugent.be/index.php/s/rkPx4qJ6jT25JWT?path=%2FSpectral_libraries
+
 Installing EncyclopeDIA:
 Please install EncyclopeDIA 0.8.2 from https://bitbucket.org/searleb/encyclopedia/downloads/?tab=downloads.
 Using the CONVERT MSP/SPTXT to Library function, you can convert MS²PIP .msp files to a .dlib file. 
@@ -32,6 +34,6 @@ If you would have any issues during the installment please contact us and we wil
 
 In our GitHub repository you can find a DIY practical exercise (on a Yeast dataset of the Chromatogram Library paper of B.Searle). Please try it yourself and send us your results using social media. 
 
-Bart Van Puyvelde ([bart.vanpuyvelde@ugent.be](mailto:bart.vanpuyvelde@ugent.be))
+Bart Van Puyvelde ([bart.vanpuyvelde@ugent.be](mailto:bart.vanpuyvelde@ugent.be)) and
 Maarten Dhaenens ([maarten.dhaenens@ugent.be](mailto:maarten.dhaenens@ugent.be))
 
