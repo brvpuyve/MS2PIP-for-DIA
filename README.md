@@ -15,7 +15,7 @@ This repository contains all small (<100MB) files that are supporting data for t
 ### Do it yourself challenge (and tutorial)
 Before putting this story on paper, we evaluated our workflow on both public and in-house datasets. One of these datasets was a public yeast dataset, which was published together with the HeLa dataset. As this dataset is smaller, we provide our workflow as a Do-It-Yourself tutorial on this repository. We would like to challenge you to try out our workflow on the Yeast dataset. That way you can go through the different steps and at the same time see the added value of this new peptide centric approach. 
 
-The Yeast dataset itself can be downloaded online from the MassIVE proteomics repository: [ftp](ftp://massive.ucsd.edu/MSV000082805). The repository contains both raw as peak picked data, so it is up to you whether you want to skip the raw file processing with MSConvertGUI, or not. 
+The Yeast dataset itself can be downloaded online from the MassIVE proteomics repository: ftp://massive.ucsd.edu/MSV000082805. The repository contains both raw as peak picked data, so it is up to you whether you want to skip the raw file processing with MSConvertGUI, or not. 
 
 For convenience, we have included all intermediate results to allow you to skip the more computationally expensive steps, such as e.g. MS²PIP spectral library prediction. All steps are outlined in [DIY/tutorial_steps.md](https://github.com/brvpuyve/MS2PIP-for-DIA/blob/master/DIY/tutorial_steps.md).
 
