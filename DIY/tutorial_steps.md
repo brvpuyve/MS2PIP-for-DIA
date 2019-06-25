@@ -23,7 +23,8 @@ On our Github repository you can find our ELUDE retention model, as well as the 
 
 If older versions of MS²PIP are used, the retention time is not on a separate line and therefore requires parsing. The script to convert the RT is available on this GitHub repository.  
 
-The predicted spectral libraries (Human, Yeast) are available in .dlib format via ...
+The predicted spectral libraries (Human, Yeast) are available in .dlib format via 
+[genesis.ugent.be/uvpublicdata/MS2PIP-for-DIA/](http://genesis.ugent.be/uvpublicdata/MS2PIP-for-DIA/)
 
 Installing EncyclopeDIA:
 Please install EncyclopeDIA 0.8.2 from https://bitbucket.org/searleb/encyclopedia/downloads/?tab=downloads.
