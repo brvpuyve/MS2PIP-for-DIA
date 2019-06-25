@@ -1,39 +1,25 @@
-# The future of peptide-centric DIA is predicted 
-Dear,
 
-First of all, I would like to thank you for showing your interest into our GitHub page.
+# The future of peptide-centric DIA is predicted!
 
-In close collaboration with the CompOmics group of Lennart Martens we worked out a complete workflow to use MS²PIP predicted libraries for wide window DIA data extraction. Please refer to our manuscript posted on BioRxiv!
+In our manuscript *The future of peptide-centric Data-Independent Acquisition is predicted* we show the benefit of MS²PIP predicted spectral libraries on a HeLa DIA dataset published by Searle et al. ([doi:10.1038/s41467-018-07454-w](https://doi.org/10.1038/s41467-018-07454-w)).
 
-To enjoy all embedded features of MS²PIP, a full installation is required. 
-Here, I would like to refer to the [GitHub page of MS²PIP](https://github.com/compomics/ms2pip_c/releases/latest).
+>**The future of peptide-centric Data-Independent Acquisition is predicted**  
+>*\*Van Puyvelde, B.\*, Willems, S.\*, Gabriels, R.\*, Daled, S., De Clerck, L., Staes, A., Impens, F., Deforce, D., Martens, L., Degroeve, S., Dhaenens, M.§*  
+>
+>*Abstract:*  
+>Data-Independent Acquisition (DIA) currently generates the most comprehensive and complex mass spectrometric data, which imposes the use of data-dependent acquisition (DDA) libraries for deep peptide-centric detection. We redeem DIA from this dependency by combining predicted fragment intensities and retention times with narrow window DIA.
 
-For this manuscript, a Linux operated machine with a virtual environment of Python3 was used. (Thx to Yannick) 
-If you wouldn't have access to a server or Linux operated machine. I would recommend you to install the VirtualBox software to create a virtual clone on your Windows/iOS operated machine.
+### Manuscript supporting data
+This repository contains all small (<100MB) files that are supporting data for the manuscript. Larger files are available on (Todo:url).
 
-Once MS²PIP is installed, you can install ELUDE from the Percolator GitHub: https://github.com/percolator/percolator/releases. ELUDE is embedded in one of the folders of the percolator repository. It can easily be installed (after unpacking the folder) with following command:
-```
-sudo dpkg -i elude-v3-02-linux-amd64.deb (Linux operated machine) | dpkg -i  Ubuntu64.deb
-```
+### Do it yourself challenge (and tutorial)
+Before putting this story on paper, we evaluated our workflow on both public and in-house datasets. One of these datasets was a public yeast dataset, which was published together with the HeLa dataset. As this dataset is smaller, we provide our workflow as a Do-It-Yourself tutorial on this repository. We would like to challenge you to try out our workflow on the Yeast dataset. That way you can go through the different steps and at the same time see the added value of this new peptide centric approach. 
 
-Once everything is installed you can start predicting spectral libraries using one single command:
-```
-python3 “fasta2speclib.py” [-h] [-o OUTPUT_FILENAME] [-c CONFIG_FILENAME] “fasta_filename”
-```
-On our Github repository you can find our ELUDE retention model, as well as the configuration file used in this manuscript.
+The Yeast dataset itself can be downloaded online from the MassIVE proteomics repository: ftp://massive.ucsd.edu/MSV000082805. The repository contains both raw as peak picked data, so it is up to you whether you want to skip the raw file processing with MSConvertGUI, or not. 
 
-If older versions of MS²PIP are used, the retention time is not on a separate line and therefore requires parsing. The script to convert the RT is available on this GitHub repository.  
+For convenience, we have included all intermediate results to allow you to skip the more computationally expensive steps, such as e.g. MS²PIP spectral library prediction. All steps are outlined in [DIY/tutorial_steps.md](https://github.com/brvpuyve/MS2PIP-for-DIA/blob/master/DIY/tutorial_steps.md).
 
-The predicted spectral libraries (Human, Yeast) are available in .dlib format via https://cmbcloud.ugent.be/index.php/s/rkPx4qJ6jT25JWT?path=%2FSpectral_libraries
+Please share your results and experiences as much as possible via social media (e.g. Twitter). We would be very grateful to you. You can find us at [@BartVP](https://twitter.com/BartVP) and [@RalfGabriels](https://twitter.com/RalfGabriels). If you encounter any problems, you can also mail us on: [Bart.VanPuyvelde@UGent.be](mailto:Bart.VanPuyvelde@UGent.be). 
 
-Installing EncyclopeDIA:
-Please install EncyclopeDIA 0.8.2 from https://bitbucket.org/searleb/encyclopedia/downloads/?tab=downloads.
-Using the CONVERT MSP/SPTXT to Library function, you can convert MS²PIP .msp files to a .dlib file. 
-
-If you would have any issues during the installment please contact us and we will try to help you wherever we can. 
-
-In our GitHub repository you can find a DIY practical exercise (on a Yeast dataset of the Chromatogram Library paper of B.Searle). Please try it yourself and send us your results using social media. 
-
-Bart Van Puyvelde ([bart.vanpuyvelde@ugent.be](mailto:bart.vanpuyvelde@ugent.be)) and
-Maarten Dhaenens ([maarten.dhaenens@ugent.be](mailto:maarten.dhaenens@ugent.be))
+The only thing left for us to do is to wish you all the best with the challenge. Good luck!
 
