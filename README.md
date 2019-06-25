@@ -10,7 +10,7 @@ In our manuscript *The future of peptide-centric Data-Independent Acquisition is
 >Data-Independent Acquisition (DIA) currently generates the most comprehensive and complex mass spectrometric data, which imposes the use of data-dependent acquisition (DDA) libraries for deep peptide-centric detection. We redeem DIA from this dependency by combining predicted fragment intensities and retention times with narrow window DIA.
 
 ### Manuscript supporting data
-This repository contains all small (<100MB) files that are supporting data for the manuscript. Larger files are available on (Todo:url).
+This repository contains all small (<100MB) files that are supporting data for the manuscript. Larger files are available on [genesis.ugent.be/uvpublicdata/MS2PIP-for-DIA/](http://genesis.ugent.be/uvpublicdata/MS2PIP-for-DIA/).
 
 ### Do it yourself challenge (and tutorial)
 Before putting this story on paper, we evaluated our workflow on both public and in-house datasets. One of these datasets was a public yeast dataset, which was published together with the HeLa dataset. As this dataset is smaller, we provide our workflow as a Do-It-Yourself tutorial on this repository. We would like to challenge you to try out our workflow on the Yeast dataset. That way you can go through the different steps and at the same time see the added value of this new peptide centric approach. 
