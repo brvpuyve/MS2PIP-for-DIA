@@ -1,7 +1,7 @@
 
-# The future of peptide-centric DIA is predicted!  ([http://dx.doi.org/10.1101/681429])
+# The future of peptide-centric DIA is predicted!  
 
-In our manuscript *The future of peptide-centric Data-Independent Acquisition is predicted* we show the benefit of MS²PIP predicted spectral libraries on a HeLa DIA dataset published by Searle et al. ([doi:10.1038/s41467-018-07454-w](https://doi.org/10.1038/s41467-018-07454-w)).
+In our manuscript *The future of peptide-centric Data-Independent Acquisition is predicted* (http://dx.doi.org/10.1101/681429) we show the benefit of MS²PIP predicted spectral libraries on a HeLa DIA dataset published by Searle et al. ([doi:10.1038/s41467-018-07454-w](https://doi.org/10.1038/s41467-018-07454-w)).
 
 >**The future of peptide-centric Data-Independent Acquisition is predicted**  
 >*\*Van Puyvelde, B.\*, Willems, S.\*, Gabriels, R.\*, Daled, S., De Clerck, L., Staes, A., Impens, F., Deforce, D., Martens, L., Degroeve, S., Dhaenens, M.§*  
