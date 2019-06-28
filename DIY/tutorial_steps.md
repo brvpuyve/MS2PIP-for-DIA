@@ -19,6 +19,8 @@ sudo dpkg -i elude-v3-02-linux-amd64.deb (Linux operated machine) | dpkg -i  Ubu
 #### EncyclopeDIA:
 EncyclopeDIA 0.8.2 can be downloaded from https://bitbucket.org/searleb/encyclopedia/downloads/?tab=downloads.
 
+---
+
 ### Run the pipeline
 #### Input files
 - The Yeast dataset itself can be downloaded from the MassIVE proteomics repository: [ftp://massive.ucsd.edu/MSV000082805]((ftp://massive.ucsd.edu/MSV000082805). The repository contains both raw as peak picked data, so it is up to you whether you want to skip the raw file processing with MSConvertGUI, or not.
