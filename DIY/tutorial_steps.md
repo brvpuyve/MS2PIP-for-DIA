@@ -11,23 +11,23 @@ For this manuscript, a Linux operated machine with a Python 3 virtual environmen
 MS²PIP can be downloaded from [GitHub page of MS²PIP](https://github.com/compomics/ms2pip_c/releases/latest). A detailed installation guide can be found on [Extended Install Instructions](https://github.com/compomics/ms2pip_c/wiki/Extended_install_instructions).
 
 #### Elude
-Elude is shipped with the installation of Percolator. It can be downloaded from the Percolator [GitHub repository](https://github.com/percolator/percolator/releases). To install Elude, after unzipping the folder, run the following command:
+Elude is shipped with Percolator. It can be downloaded from the Percolator [GitHub repository](https://github.com/percolator/percolator/releases). To install Elude, after unzipping the folder, run the following command:
 ```
 sudo dpkg -i elude-v3-02-linux-amd64.deb (Linux operated machine) | dpkg -i  Ubuntu64.deb
 ```
 
 #### EncyclopeDIA:
-EncyclopeDIA 0.8.2 can be downloaded from https://bitbucket.org/searleb/encyclopedia/downloads/?tab=downloads.
+EncyclopeDIA can be downloaded from https://bitbucket.org/searleb/encyclopedia/downloads/?tab=downloads.
 
 ---
 
 ### Run the pipeline
 #### Input files
-- The Yeast dataset itself can be downloaded from the MassIVE proteomics repository: [ftp://massive.ucsd.edu/MSV000082805]((ftp://massive.ucsd.edu/MSV000082805). The repository contains both raw as peak picked data, so it is up to you whether you want to skip the raw file processing with MSConvertGUI, or not.
+- The Yeast dataset itself can be downloaded from the MassIVE proteomics repository: [MSV000082805](https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?task=e340c79fbdc64e14a710265761bfeed5). The repository contains both raw as peak picked data, so it is up to you whether you want to skip the raw file processing (e.g. with MSConvertGUI), or not.
 - We shared the yeast FASTA file on this repository: [DIY/YEAS8_iRT.fasta](https://github.com/brvpuyve/MS2PIP-for-DIA/blob/master/DIY/YEAS8_iRT.fasta). It can also be downloaded from UniProt.
 - The Elude model we used can also be found on this repository: [ELUDE/ELUDE_PAN_HUMAN.model](https://github.com/brvpuyve/MS2PIP-for-DIA/blob/master/ELUDE/ELUDE_PAN_HUMAN.model)
 - The fasta2speclib config file we used can be found here: [Config_file/fasta2speclib_config_HCD_2missed_ELUDE.json](https://github.com/brvpuyve/MS2PIP-for-DIA/blob/master/Config_file/fasta2speclib_config_HCD_2missed_ELUDE.json)
-
+ 
 #### fasta2speclib
 Once everything is installed you can start predicting spectral libraries using one single command:
 ```
