@@ -33,6 +33,9 @@ Once everything is installed you can start predicting spectral libraries using o
 ```
 python3 “fasta2speclib.py” [-h] [-o OUTPUT_FILENAME] [-c CONFIG_FILENAME] “fasta_filename”
 ```
+More documentation on fasta2speclib can be found on the
+[MS²PIP wiki pages](http://compomics.github.io/projects/ms2pip_c/wiki/fasta2speclib).
+
 If you want to skip this step, you can download the predicted spectral libraries (Human, Yeast) in .dlib format on 
 [genesis.ugent.be/uvpublicdata/MS2PIP-for-DIA/](http://genesis.ugent.be/uvpublicdata/MS2PIP-for-DIA/)
 
