@@ -4,6 +4,8 @@ In close collaboration with the [CompOmics group](https://www.compomics.com) of 
 
 This document outlines all required steps to try out the analysis yourself. In the methods section of our preprint *[The future of peptide-centric Data-Independent Acquisition is predicted](https://www.biorxiv.org/content/10.1101/681429v1)*, you can find a more detailed description of all steps.
 
+---
+
 ### Installation
 For this manuscript, a Linux operated machine with a Python 3 virtual environment was used. If you do not have access to a server or Linux operated machine, we recommend you to install the VirtualBox software to create a virtual clone on your Windows/macOS operated PC. We can also highly recommend the [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) which is implemented on all Windows 10 PCs.
 
@@ -16,7 +18,7 @@ Elude is shipped with Percolator. It can be downloaded from the Percolator [GitH
 sudo dpkg -i elude-v3-02-linux-amd64.deb (Linux operated machine) | dpkg -i  Ubuntu64.deb
 ```
 
-#### EncyclopeDIA:
+#### EncyclopeDIA
 EncyclopeDIA can be downloaded from https://bitbucket.org/searleb/encyclopedia/downloads/?tab=downloads.
 
 ---
@@ -43,7 +45,7 @@ If you want to skip this step, you can download the predicted spectral libraries
 Using the EncyclopeDIA *CONVERT MSP/SPTXT to Library* function, you can convert the fasta2speclib .msp files to a .dlib file. This .dlib file can then be used in the EncyclopeDIA analysis to make a chromatogram library. Next, the wide window runs can be analyzed with the chromatogram library.
 
 ---
-### Contact:
+### Contact
 If you would have any issues, please contact us and we will try to help you wherever we can. 
 - Bart Van Puyvelde ([bart.vanpuyvelde@ugent.be](mailto:bart.vanpuyvelde@ugent.be), [@BartVP](https://twitter.com/BartVP))
 - Maarten Dhaenens ([maarten.dhaenens@ugent.be](mailto:maarten.dhaenens@ugent.be))
